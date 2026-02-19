@@ -25,8 +25,8 @@ const sincronizarData = (e) => {
 
 const generarRespuesta = async () => {
   const result = streamText({
-    // model: openrouter("openrouter/aurora-alpha"),
-    model: openrouter("stepfun/step-3.5-flash:free"),
+    model: openrouter("openrouter/aurora-alpha"),
+    // model: openrouter("stepfun/step-3.5-flash:free"),
     prompt: obj.prompt,
     system: "Eres un ingeniero de software con 20 años de experiencia",
     temperature: 0
